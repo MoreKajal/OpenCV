@@ -3,7 +3,7 @@ import sys
 print("Python version")
 print(sys.version)
 
-#let's read and display an image
+#Let's read and display an image
 
 import cv2
 img = cv2.imread('pic1.jpg')
