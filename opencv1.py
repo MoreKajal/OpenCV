@@ -16,4 +16,8 @@ h,w = img.shape[:2]
 #print(h,w)
 print('Height = {}, Width = {} '.format(h,w))
 
+#RGB to Gray
+gry_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+cv2.imshow('gray_scale', gry_img)
+cv2.waitKey(0)
 cv2.destroyAllWindows()
